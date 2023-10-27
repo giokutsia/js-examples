@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisors</title>
+</head>
+<body>
+    <h1>Divisors</h1>
+    <h2>Open Console</h2>
+
+    <script>
+        
+        
+        let sum = 0
+        while(true){
+            let number = Number(prompt("enter number:"));
+            if(!isNaN(number)){
+                console.log("ok")
+                for(let i=0; i<=number; i++){
+                    if(number % i === 0){
+                        sum++;
+                    }
+                    
+                }
+                console.log("number of divisors for your input is:" + sum)
+                break;
+               
+            }
+
+        }
+        
+        
+        
+     
+
+        
+        
+    </script>
+</body>
+</html>
